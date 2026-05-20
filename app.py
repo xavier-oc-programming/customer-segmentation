@@ -4,7 +4,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from flask import Flask, jsonify, render_template, request, send_file
+from flask import Flask, jsonify, render_template, request
 
 from segment_labels import SEGMENT_PROFILES, get_segment_profile
 
@@ -217,11 +217,6 @@ def preprocess_input(data: dict) -> np.ndarray:
 @app.route('/')
 def index():
     return render_template('index.html')
-
-
-@app.route('/clusters-3d')
-def clusters_3d():
-    return send_file(Path('plots/08_clusters_3d.html'))
 
 
 @app.route('/predict', methods=['POST'])
