@@ -1,0 +1,57 @@
+{
+  "0": {
+    "size": 2094,
+    "pct_total": 29.8,
+    "mean_tenure": 17.9,
+    "mean_monthly_charges": 79.27,
+    "mean_total_charges": 1496.31,
+    "churn_rate": 56.4,
+    "most_common_contract": "Month-to-month",
+    "most_common_internet": "Fiber optic",
+    "most_common_payment": "Electronic check"
+  },
+  "1": {
+    "size": 1521,
+    "pct_total": 21.6,
+    "mean_tenure": 30.7,
+    "mean_monthly_charges": 21.09,
+    "mean_total_charges": 665.65,
+    "churn_rate": 7.4,
+    "most_common_contract": "Two year",
+    "most_common_internet": "No",
+    "most_common_payment": "Mailed check"
+  },
+  "2": {
+    "size": 1222,
+    "pct_total": 17.4,
+    "mean_tenure": 16.2,
+    "mean_monthly_charges": 56.33,
+    "mean_total_charges": 919.92,
+    "churn_rate": 28.2,
+    "most_common_contract": "Month-to-month",
+    "most_common_internet": "DSL",
+    "most_common_payment": "Mailed check"
+  },
+  "3": {
+    "size": 1015,
+    "pct_total": 14.4,
+    "mean_tenure": 63.7,
+    "mean_monthly_charges": 85.92,
+    "mean_total_charges": 5516.34,
+    "churn_rate": 4.2,
+    "most_common_contract": "Two year",
+    "most_common_internet": "DSL",
+    "most_common_payment": "Credit card (automatic)"
+  },
+  "4": {
+    "size": 1180,
+    "pct_total": 16.8,
+    "mean_tenure": 50.4,
+    "mean_monthly_charges": 86.07,
+    "mean_total_charges": 4395.95,
+    "churn_rate": 16.0,
+    "most_common_contract": "One year",
+    "most_common_internet": "Fiber optic",
+    "most_common_payment": "Credit card (automatic)"
+  }
+}
