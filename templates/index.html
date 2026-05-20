@@ -19,9 +19,24 @@
       background: #2E75B6;
       color: white;
       padding: 18px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
     header h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.3px; }
     header p { font-size: 0.9rem; opacity: 0.85; margin-top: 4px; }
+    .header-3d-link {
+      font-size: 0.82rem;
+      color: white;
+      opacity: 0.85;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,0.5);
+      padding: 6px 14px;
+      border-radius: 6px;
+      white-space: nowrap;
+      transition: opacity 0.15s;
+    }
+    .header-3d-link:hover { opacity: 1; }
 
     .container {
       max-width: 1280px;
@@ -305,8 +320,11 @@
 <body>
 
 <header>
-  <h1>Customer Segmentation</h1>
-  <p>Discover natural customer archetypes from the IBM Telco dataset — built as the analytical precursor to telco-churn-predictor.</p>
+  <div>
+    <h1>Customer Segmentation</h1>
+    <p>Discover natural customer archetypes from the IBM Telco dataset — built as the analytical precursor to telco-churn-predictor.</p>
+  </div>
+  <a href="/clusters-3d" target="_blank" class="header-3d-link">View 3D cluster plot</a>
 </header>
 
 <div class="container">
